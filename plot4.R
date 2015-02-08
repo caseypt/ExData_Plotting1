@@ -1,7 +1,12 @@
 ### Create plot 4
 
 # Read in the data
-#source("read_data.R")
+source("read_data.R")
+
+# Adjust the global font size
+par(cex = 0.8)
+par(cex.axis = 0.75)
+par(cex.lab = 0.75)
 
 # Setup the canvas for 4 charts
 par(mfrow = c(2, 2))

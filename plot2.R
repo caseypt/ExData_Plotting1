@@ -3,6 +3,9 @@
 # Read in the data
 source("read_data.R")
 
+# Adjust the global font size
+par(cex = 0.75)
+
 # Draw a line chart
 with(data.subset, plot(Time, Global_active_power,
                        typ = "l",
